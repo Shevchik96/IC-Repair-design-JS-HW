@@ -1,0 +1,184 @@
+body {
+    max-width: 100%;
+    margin: 0 none;
+    font-family: Nunito Sans;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.main__info {
+    background-color: rgba(19, 19, 19, 1);
+    height: 783px;
+    width: 1440px;
+    
+}
+.main__info-container {
+    display: flex;
+    flex-direction: row;
+    color: rgba(255, 255, 255, 1);
+}
+.main__info-container-ul {
+    display: flex;
+    flex-direction: row;
+    padding-top: 42px;
+}
+.main__info-container-left-column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+span{
+    color: rgba(227, 184, 115, 1);
+}
+hr {
+    width: 94px;
+    height: 1px;
+    margin-left: -80px;
+    margin-top: 40px;
+    background-color: rgba(227, 184, 115, 1);
+    border: none;
+}
+.main__info-container-left :nth-child(1){
+    font-family: Yeseva One;
+}
+.main__info-container-left-ul-left :nth-child(2){
+    font-family: Nunito Sans;
+    padding-top: 9px;
+}
+.main__info-container-left-ul-left :nth-child(3) {
+    font-family: Nunito Sans;
+    padding-top: 9px;
+}
+.main__info-container-left-ul-right {
+    margin-left: 29px;
+}
+.main__info-container-left {
+    margin-left: 134.45px;
+    padding-top: 176.36px;
+}
+.main__info-container-left-h1 {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37.42px;
+    max-width: 253px;
+}
+.main__info-container-left-p {
+    max-width: 442px;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    line-height: 26.73px;
+    padding-top: 34px;
+}
+.main__info-container-left-ul-left-second {
+    margin-top: 34px;
+    width: 156px;
+}
+.main__info-container-left-ul-right :nth-child(2){
+    font-family: Nunito Sans;
+    padding-top: 9px;
+}
+.main__info-container-left-ul-right-second {
+    margin-top: 60px;
+}
+.main__images-left{
+    padding-top: 76.64px;
+    
+}
+.main__info-container-right{
+    padding-top: 107px;
+    width: 679px;
+    margin-left: 50px;
+}
+.main__info-container-right-h1 {
+    display: flex;
+    flex-direction: row;
+    gap: 60.5px;
+    font-family: Yeseva One;
+    font-size: 14px;
+    line-height: 19.4px;
+    padding-left: 30px;
+    color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.button_slider {
+    display: flex;
+    margin-top: 100px;
+    gap: 10px;
+
+}
+.slider {
+    width: 679px;
+    height: 482.38px;
+    overflow: hidden;
+}
+.slider__img {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.button_slider-back {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.button_slider-next {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.overflow {
+    display: flex;
+    width: 679px;
+    height: 482.38px;
+    overflow: hidden;
+    margin-top: 180px;
+    margin-left: -650px;
+    position: relative;
+}
+.circle{
+    display: flex;
+    transition: all ease 1s;
+    position: relative;
+    width: 63.78px;
+    height: 9.57px;
+}
+.pointsAreaSize {
+    display: flex;
+    gap: 17.96px;
+
+}
+.circle_slider-img {
+    background:rgba(255, 255, 255, 0.3);
+}
+.slider__wrapper {
+    display: flex;
+    width: 63.78px;
+    height: 9.57px;
+    gap: 17.54px;
+}
+.point{
+    width: 9.57px;
+    height: 9.57px;
+    border: none solid;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.point:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+.activeImage {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    
+}
+.styleh1{
+    color: rgba(227, 184, 115, 1);
+    border-bottom: 2px solid rgba(227, 184, 115, 1);
+    padding-bottom: 10px;
+}
